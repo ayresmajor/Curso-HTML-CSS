@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(177, 255, 238);
+}
+h1{
+    color: rgb(53, 53, 53);
+    font: normal 100pt Arial;
+    text-shadow: rgb(62, 144, 172) 0px 10px;
+}
+input#botão{
+    background-color:red;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: rgb(89, 99, 121) 10px 20px;
+    font: normal 50pt Arial;
+}
+
+    

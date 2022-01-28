@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir o site em varíos dspositivos ou aumenta e diminua o tamanho da janela do seu browser
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagens flexivel">
+    </picture>
+
+    <h1>Reprodução de áudios</h1>
+    <h2>maneira simples e limitada</h2>
+    <audio src="midia/McDonald.mp3" controls></audio>
+
+    <h2>Maneira completa</h2>
+    <audio preload="auto" autoplay controls >
+        <source src="midia/migatte.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>

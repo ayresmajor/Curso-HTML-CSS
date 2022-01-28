@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: #CABAAB;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: hsl(193, 50%, 74%);
+            padding: 20px 10px;
+            margin-bottom: 20px;
+        }
+
+        h1{
+            background-color: #d90b1c65;
+            padding: 10px 2px;
+            width: 200px;
+            box-shadow: 6px 8px 31px rgb(0 0 0 / 48%);
+        }
+
+        nav > span{
+            font-weight: bold;
+            color: #202731;
+            font-size: 1.3em;
+            text-shadow: 2px 4px 6px rgb(202 15 15);
+            
+        }
+
+        nav > ul{
+            display: none;
+        }
+        nav:hover > ul{
+            display: block;
+            padding: 20px;
+            outline-width: 2px;
+            outline-style:solid;
+            width: 100px;
+            background-color: lightgrey;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        li:hover{
+            font-size: 1.5em;
+        }
+        main{
+            background-color: #FAF566;
+            padding: 20px 10px;
+            border-radius: 20px 10px 20px 15px;
+            box-shadow: 10px 13px 20px 0px rgba(0, 0, 0, 0.438);
+        }
+        footer{
+            background-color: #202731;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <span>MENU</span>
+            <ul>
+                <li><a href="#">Menu1</a></li>
+                <li><a href="#">Menu2</a></li>
+                <li><a href="#">Menu3</a></li>
+                <li><a href="#">Menu4</a></li>
+                <li><a href="#">Menu5</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id=noticias>
+            <article>
+                <h2>Lorem Al</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, animi quod facilis reprehenderit aperiam asperiores labore et est culpa mollitia, consectetur neque, corporis nobis ut autem quibusdam qui perspiciatis natus!</p>
+                <aside>
+                    <p>Artigo escrito por Ayres</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(255, 9, 255);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+            font-size: 1.3em;
+        }
+
+        a:active{
+            color: chartreuse;
+        }
+
+        a::after{
+            content: '[link]';
+            font-weight: normal;
+            color: darkgray;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personaização de links</h1>
+    <ul>
+        <li><a href="https://manhuaplus.com/manga/tales-of-demons-and-gods/chapter-358-1/" target="_blank" rel="external">Manhua</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="external" >Youtube Ric Roll</a></li>
+        <li><a href="https://www.xnxx.com" target="_blank" rel="external">Porn</a></li>
+    </ul>
+</body>
+</html>
