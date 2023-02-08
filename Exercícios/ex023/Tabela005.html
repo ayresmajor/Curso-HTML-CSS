@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercíco de tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-size:1.3em;
+            font-weight:bold;
+            padding: 20px;
+        }
+        td,th {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid;
+        }
+        col.red{
+            background-color:red;
+        }
+        col.green{
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercíco de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="red">
+            <col class="green" span="2">
+            <col class="red">
+        </colgroup>
+        <caption>Cadasstro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nomes</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idadde</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Ayres</td>
+                    <td>Masculino</td>
+                    <td>19</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Ayres</td>
+                    <td>Masculino</td>
+                    <td>19</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Ayres</td>
+                    <td>Masculino</td>
+                    <td>19</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Ayres</td>
+                    <td>Masculino</td>
+                    <td>19</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Ayres</td>
+                    <td>Masculino</td>
+                    <td>19</td>
+                    <td>Programador</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>
